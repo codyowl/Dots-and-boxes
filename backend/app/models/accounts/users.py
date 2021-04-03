@@ -1,6 +1,7 @@
 from sqlalchemy import Boolean, Column, Integer, String
 from sqlalchemy.orm import relationship
 from app.models.base import Base
+from game.models.games import Game
 
 class User(Base):
     id = Column(Integer, primary_key=True, index=True)
@@ -18,9 +19,3 @@ class User(Base):
     # helper function to get loss count
     def get_loss_count(self):
         return total_games - win_count
-
-
-    
-
-
-
