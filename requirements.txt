@@ -3,7 +3,7 @@ dataclasses==0.8
 fastapi==0.62.0
 h11==0.12.0
 pydantic==1.8.1
-PyJWT==1.7.1
+PyJWT==2.4.0
 python-decouple==3.3
 starlette==0.13.6
 typing-extensions==3.7.4.3
